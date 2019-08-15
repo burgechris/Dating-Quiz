@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Practice</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <form class="quiz" action="index.html" method="post">
+
+      <h3>Here, pick your favorite color.</h3>
+
+      <select class="color" name="" id="color">
+        <option value="1">Blue</option>
+        <option value="2">Green</option>
+        <option value="3">Orange</option>
+      </select>
+
+      <h3>Here, pick your favorite animal.</h3>
+      <select class="animal" name="" id="animal">
+        <option value="4">Cat</option>
+        <option value="5">Dog</option>
+        <option value="6">Snake</option>
+      </select>
+
+      <h3>Here, pick your favorite food.</h3>
+      <select class="food" name="" id="food">
+        <option value="7">Pizza</option>
+        <option value="8">Burger</option>
+        <option value="9">Taco</option>
+      </select>
+      <br>
+      <br>
+      <div class="row">
+        <button type="listbutton" name="button" id="submit-btn">Click to find your soulmate!</button>
+      </div>
+
+
+
+
+      <div class="result" id="fabio">
+        <h1>You should date....</h1>
+        <h3>Fabio</h3>
+        <img src="img/fabio.jpg" alt="">
+      </div>
+
+      <div class="result" id="hulk">
+        <h1>You should date....</h1>
+        <h3>Hulk Hogan</h3>
+        <img src="img/hulk.jpg" id="hulk" alt="">
+      </div>
+
+      <div class="result" id="pam">
+        <h1>You should date....</h1>
+        <h3>Pam Anderson</h3>
+        <img src="img/pamanderson.jpg" id="pam" alt="">
+      </div>
+
+
+    </form>
+  </div>
+</body>
+
+</html>
